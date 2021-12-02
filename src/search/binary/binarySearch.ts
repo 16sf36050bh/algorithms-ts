@@ -14,7 +14,7 @@ const binarySearch = (items: any[], item: any): number => {
             result = middlePt
         }
 
-        if (item > middlePt) { 
+        else if  (item > middlePt) { 
             lowestPt = middlePt
             middlePt = (lowestPt + highestPt)/2
 
@@ -23,6 +23,7 @@ const binarySearch = (items: any[], item: any): number => {
             }
 
             else {
+
                 
             }
 
